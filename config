@@ -65,7 +65,8 @@ window-padding-color = background
 window-decoration = auto
 
 # Split configuration
-unfocused-split-opacity = 0.85
+# unfocused-split-fill = 222222
+unfocused-split-opacity = 0.4
 split-divider-color = 45475a
 
 # Resize overlay settings
