@@ -16,10 +16,10 @@ minimum-contrast = 1.1
 # =========================
 # FONT CONFIGURATION
 # =========================
-font-family = "Monaspace Krypton Var"
-font-family-italic = "Monaspace Krypton Var"
-font-family-bold = "Monaspace Krypton Var"
-font-family-bold-italic = "Monaspace Krypton Var"
+font-family = "Monaspace Krypton NF"
+font-family-italic = "Monaspace Krypton NF"
+font-family-bold = "Monaspace Krypton NF"
+font-family-bold-italic = "Monaspace Krypton NF"
 
 font-style = "Medium"
 font-style-bold = "Bold"
@@ -29,21 +29,23 @@ font-style-bold-italic = "Bold Italic"
 font-size = 14
 
 # Enable programming ligatures (for fonts that support them)
-font-feature = "ss01"  # ss01: != and ===
-font-feature = "ss02"  # ss02: <= and >=
-font-feature = "ss03"  # ss03: -> and ~>
-font-feature = "ss04"  # ss04: <> and </>
-font-feature = "ss05"
-font-feature = "ss06"
-font-feature = "ss07"
-font-feature = "ss08"
-font-feature = "subpixel_antialias"
-font-feature = +liga
-font-feature = +calt
-font-feature = +dlig   # Discretionary ligatures (disabled by default in 1.2.0)
+font-feature = "ss01" # ligatures related to the equals glyph like != and ===.
+font-feature = "ss02" # ligatures for greater/less or equal (<=, >=).
+font-feature = "ss03" # ligatures related to arrows like -> and ~>.
+font-feature = "ss04" # ligatures related to markup, like </ and />.
+font-feature = "ss05" # ligatures related to the F# programming language, like |>.
+font-feature = "ss06" # ligatures related to repeated uses of #, +, and &.
+font-feature = "ss07" # ligatures related to colons like :: or =:=.
+font-feature = "ss08" # ligatures related to combinations of periods with other glyphs like ..= or .-.
+font-feature = "ss09" # ligatures related to combinations of the greater/less than and equals signs, like <=>,>>, and =<<.
+font-feature = "ss10" # other tags, like #[ and #(
+# font-feature = "subpixel_antialias"
+font-feature = "liga" # Enables dynamic spacing for certain repeating character patterns like ///
+font-feature = "calt" # Enables texture healing (in Monospace fonts)
+font-feature = "dlig" # Enables discretionary ligatures
 
 # Fine-tune font metrics
-adjust-cell-height = 10%
+adjust-cell-height = 25%
 adjust-font-baseline = -1
 
 
