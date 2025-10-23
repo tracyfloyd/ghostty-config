@@ -55,13 +55,13 @@ adjust-font-baseline = -1
 
 # Background transparency and blur
 background-opacity = 0.95
-background-blur = 10
+background-blur = 20
 
 # Window padding for breathing room
-window-padding-x = 16
-window-padding-y = 16
-window-padding-balance = true
-window-padding-color = background
+# window-padding-x = 16
+# window-padding-y = 16
+# window-padding-balance = true
+# window-padding-color = background
 
 # Enable native decorations based on your desktop environment
 window-decoration = auto
