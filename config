@@ -45,7 +45,7 @@ font-feature = "calt" # Enables texture healing (in Monospace fonts)
 font-feature = "dlig" # Enables discretionary ligatures
 
 # Fine-tune font metrics
-adjust-cell-height = 25%
+adjust-cell-height = 40%
 adjust-font-baseline = -1
 
 
@@ -54,7 +54,7 @@ adjust-font-baseline = -1
 # ==========================================
 
 # Background transparency and blur
-background-opacity = 0.95
+background-opacity = 0.75
 background-blur = 20
 
 # Window padding for breathing room
