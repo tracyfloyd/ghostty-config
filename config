@@ -3,6 +3,10 @@
 # Place this file at: ~/.config/ghostty/config
 # ============================================================================
 
+# =========================
+# KEYBINDS
+# =========================
+
 
 # =========================
 # THEME & COLORS
@@ -90,6 +94,7 @@ gtk-wide-tabs = true
 scrollback-limit = 100000000
 
 # Cursor settings
+cursor-click-to-move = true
 cursor-style = block
 cursor-style-blink = true
 cursor-opacity = 0.95
