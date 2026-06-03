@@ -6,6 +6,10 @@
 # =========================
 # KEYBINDS
 # =========================
+keybind = ctrl+shift+up=new_split:up
+keybind = ctrl+shift+down=new_split:down
+keybind = ctrl+shift+right=new_split:right
+keybind = ctrl+shift+left=new_split:left
 
 
 # =========================
